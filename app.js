@@ -248,7 +248,7 @@ $(document).ready(function(){
 function getRandom(){
     let rnd = Math.floor(Math.random() * 55);
 
-    let politicar = pravila.find(p => p.id === rnd);
+    let politicar = pravila[rnd];
 
     return politicar;
 }
